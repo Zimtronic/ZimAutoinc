@@ -7,15 +7,13 @@ use Symfony\Bridge\Monolog\Logger;
 
 class Generator
 {
-    private $logger;
     private $manager;
     private $collection;
     private $counters;
     private $config;
     
-    public function __construct($config, Logger $logger, ManagerRegistry $manager)
+    public function __construct($config, ManagerRegistry $manager)
     {
-        $this->logger = $logger;
         $this->manager = $manager;
         $this->collection = $config['collection'];
         $this->counters = $config['counters'];

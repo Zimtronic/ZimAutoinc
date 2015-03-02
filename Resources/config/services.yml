@@ -1,4 +1,4 @@
 services:
 zim.autoincrement.generator:
         class: ZF\Cupcake\BaseBundle\AutoIncrement\Generator
-        arguments: ['%zim.autoincrement%', '@logger', '@doctrine_mongodb']
+        arguments: ['%zim.autoincrement%', '@doctrine_mongodb']
