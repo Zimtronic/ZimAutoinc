@@ -1,4 +1,4 @@
 services:
-#    zim_autoinc.example:
-#        class: Zim\AutoincBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+zim.autoincrement.generator:
+        class: ZF\Cupcake\BaseBundle\AutoIncrement\Generator
+        arguments: ['%zim.autoincrement%', '@logger', '@doctrine_mongodb']
