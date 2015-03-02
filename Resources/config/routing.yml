@@ -1,3 +1,0 @@
-zim_autoinc_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: ZimAutoincBundle:Default:index }
