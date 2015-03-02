@@ -1,0 +1,30 @@
+{
+    "name" : "Zim/Autoinc",
+    "description" : "Autoincrement Bundle for Doctrine ODM MongoDB",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Rene Lopez Baracaldo",
+        "email" : "rlopez@zimtronic.com"
+    }],
+    "keywords" : [
+        "Auto Increment MongoDB Doctrine ODM"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Zim\\AutoincBundle" : ""
+        }
+    },
+    "target-dir" : "Zim/AutoincBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "master"
+        }
+    }
+}
